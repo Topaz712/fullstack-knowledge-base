@@ -7,11 +7,11 @@
 3. If you want to install locally to a specific project you're working on to be able to use TypeScript in that project --> then you will need to open terminal in VScode to install TypeScript
    run **npm init -y** to create empty package.json file because we'll need that to install dependencies
 
-4. If you want to install globally then run **npm install -g**
+- If you want to install globally then run **npm install -g**
 
-   > not necessary since it's enough where we can just install locally for individual projects
+> not necessary since it's enough where we can just install locally for individual projects
 
-5. Now we can run **npm install typescript**
+4. Now we can run **npm install typescript**
 
 ## Make sure to create a file called .gitignore and in that file type /node_modules
 
