@@ -21,3 +21,5 @@
 
 - null and undefined are also types but we usually dont set something to be null
   > We can use null and undefined in a slightly different way --> examples in next video lesson
+
+## number, strings, and booleans are the core primitive value types we should be aware of
