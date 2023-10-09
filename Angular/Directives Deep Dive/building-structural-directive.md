@@ -45,3 +45,17 @@ export class UnlessDirective {
   constructor(private templateRef: TemplateRef<any>, private vcRef: ViewContainerRef) { }
 }
 ```
+
+in the `app.component.html`:
+
+```
+<div *appUnless="onlyOdd">
+  <li
+    class="list-group-item"
+    [ngClass]="{odd: even % 2 !== 0}"
+    [ngStyle]="{backgroundColor: even % 2 !== 0 ? 'yellow' : 'transparent'}"
+    *ngFor="let evenNumber of evenNumbers">
+    {{ even }}
+  </li>
+</div>
+```
