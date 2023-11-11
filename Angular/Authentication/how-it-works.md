@@ -12,7 +12,7 @@
 Angular's Single Page Applications "SPA's" decouple front end from the back end for the different pages, rendering traditional sessions for different Url's impractical
 
 - Our back end/our server will be a RESTful API and not a server that renders HTML pages we're on, rendering sessions impractical
-  - RESTful API's are stateless
+  - RESTful API's and GraphQL are both stateless
 
 The server doesn't store session data communication happens through the Angular HTTP client
 
