@@ -83,8 +83,9 @@ end
 
 - Define a method called 'speak' that prints the name of the animal.
 ```
-def speak
-  puts @name
+  def speak
+    puts @name
+  end
 end
 ```
 
