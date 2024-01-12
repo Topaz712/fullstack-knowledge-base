@@ -46,6 +46,7 @@ To use the Nokogiri gem and extract text from an HTML document we will:
 - Run `bundle install` to install the Nokogiri gem and its dependencies specified in the Gemfile
 
 - Gems are installed locally for our project, not globally
+  - To do global installation instead run `gem install gem-name` in the shell
 
 - The difference between the `Gemfile` and the `Gemfile.lock` is:
   - The *Gemfile* is used to specify the gems we want to use in our project
