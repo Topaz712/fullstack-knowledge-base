@@ -1,4 +1,4 @@
-# Web Scraping with Nokogiri and httparty
+# Web Scraping with Nokogiri and httparty.
 
 - Web scraping is powerful but slow and maintenance-sensitive
 
